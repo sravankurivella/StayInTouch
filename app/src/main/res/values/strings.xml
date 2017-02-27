@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Group09_HW08</string>
+    <string name="email_prompt">Enter you Email Address</string>
+    <string name="password_prompt">Enter Your Password</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="firebase_root_url">https://group09hw8.firebaseIO.com</string>
+    <string name="fullname_prompt">First Name Last Name</string>
+    <string name="phone_prompt">Enter your Phone Number</string>
+    <string name="repassword_prompt">Confirm Password</string>
+    <string name="update">Update</string>
+    <string name="send_button">Send</string>
+    <string name="text_hint">Type Message</string>
+    <string name="view_contact">View Contact</string>
+    <string name="call_contact">Call Contact</string>
+</resources>

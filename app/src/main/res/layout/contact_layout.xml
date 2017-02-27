@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/conversationImage"
+        android:src="@drawable/default_pic"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/contactName"
+        android:layout_alignBottom="@+id/phoneIcon"
+        android:layout_toEndOf="@+id/conversationImage" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:id="@+id/unreadNotification"
+        android:src="@drawable/red"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/phoneIcon"
+        android:paddingTop="5dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:id="@+id/phoneIcon"
+        android:src="@drawable/phone"
+        android:layout_alignTop="@+id/unreadNotification"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+</RelativeLayout>
